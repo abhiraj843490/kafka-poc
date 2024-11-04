@@ -1,13 +1,19 @@
 package com.kafka;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Component;
 
 @SpringBootApplication
-public class KafkaConsumerExampleApplication {
+@Component
+public class KafkaDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaConsumerExampleApplication.class, args);
+		SpringApplication.run(KafkaDemoApplication.class, args);
 	}
+
+
+
 
 }
